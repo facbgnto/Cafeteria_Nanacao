@@ -3,7 +3,7 @@ const app = express();
 
 const cafes = require("./cafes.json")
 
-app.listen(3000, console.log("SERVER ON"))
+app.listen(3003, console.log("SERVER ON"))
 
 app.use(express.json())
 
